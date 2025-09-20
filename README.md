@@ -19,6 +19,7 @@ For installing this project you need follow the steps below.
 --3 Run following commands in terminal inside project folder
     composer install
     php artisan key:generate
+    php artisan storage:link
     php artisan migrate
     php artisan db:seed
     php artisan serve
